@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Portfolio.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta nam="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <title><%: Page.Title %></title>
+    
+    <link href="https://avatars.githubusercontent.com/u/132103718?v=4" rel="icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="~/Content/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h3>✅ Luca Daniel Cañas</h3>
+        </header>
+        <asp:ContentPlaceHolder ID="SectionOne" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="SectionTwo" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="SectionThree" runat="server">
+        </asp:ContentPlaceHolder>
+        <footer>
+            <h2>Contactame</h2>
+            <div class="contact">
+                <a href="#" target="_blank">
+                    <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" class="social-network" alt="">
+                </a>
+                <hr>
+                <a href="#" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" class="social-network" alt="">
+                </a>
+                <hr>
+                <a href="#" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="social-network" alt="">
+                </a>
+            </div>
+        </footer>
+
+    </form>
+</body>
+</html>
