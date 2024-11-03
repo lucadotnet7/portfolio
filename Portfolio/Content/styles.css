@@ -97,22 +97,6 @@ header {
     justify-content: space-between;
 }
 
-.card {
-    text-align: center;
-    width: 30%;
-    border: solid #F2F2F2 1px;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-    .card img {
-        width: 100%;
-    }
-
-    .card a, footer a {
-        color: white;
-    }
-
 .social-network {
     height: 60px;
     background-color: #F2F2F2;
@@ -172,11 +156,6 @@ footer {
         align-items: center;
         justify-content: space-between;
         padding-bottom: 20px;
-    }
-
-    .card {
-        width: 80%;
-        margin-top: 20px;
     }
 
     .social-network {
